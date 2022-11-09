@@ -1,0 +1,27 @@
+
+.item_box  {
+    padding: 5mm;
+    border: 1mm;
+}
+
+
+.item_detail {
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.item_name {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.item_image {
+
+}
+
+.item_temperature {
+    font-size: medium;
+    color: black;
+    font-family: sans-serif;
+}

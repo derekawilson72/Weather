@@ -1,9 +1,12 @@
-<div> 
-    
-{{period.name}}: {{period.temperature}}
 
-<img src="{{period.icon}}">
+<div class="item_box">
 
-{{period.detailedForecast}}
-    
+    <div class="item_name"> {{period.name}}: </div> 
+
+    <div class="item_temperature">{{period.temperature}}</div>
+
+    <img class="item_image" src="{{period.icon}}">
+
+    <div class="item_detail">{{period.detailedForecast}}</div>
+
 </div>
